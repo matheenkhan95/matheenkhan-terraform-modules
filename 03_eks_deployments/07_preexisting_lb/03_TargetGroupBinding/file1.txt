@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------------------------------------------------------------------
+|                                                          DescribeTargetGroups                                                          |
++----------------------------------------------------------------------------------------------------------------------------------------+
+||                                                             TargetGroups                                                             ||
+|+----------------------------+---------------------------------------------------------------------------------------------------------+|
+||  HealthCheckEnabled        |  True                                                                                                   ||
+||  HealthCheckIntervalSeconds|  30                                                                                                     ||
+||  HealthCheckPort           |  traffic-port                                                                                           ||
+||  HealthCheckProtocol       |  TCP                                                                                                    ||
+||  HealthCheckTimeoutSeconds |  10                                                                                                     ||
+||  HealthyThresholdCount     |  5                                                                                                      ||
+||  IpAddressType             |  ipv4                                                                                                   ||
+||  Port                      |  32080                                                                                                  ||
+||  Protocol                  |  TCP                                                                                                    ||
+||  TargetGroupArn            |  arn:aws:elasticloadbalancing:us-east-1:975050296408:targetgroup/nginx-precreated-tg/e88bff9135db68bb   ||
+||  TargetGroupName           |  nginx-precreated-tg                                                                                    ||
+||  TargetType                |  ip                                                                                                     ||
+||  UnhealthyThresholdCount   |  2                                                                                                      ||
+||  VpcId                     |  vpc-087f6c4cbe78ed57b                                                                                  ||
+|+----------------------------+---------------------------------------------------------------------------------------------------------+|
+|||                                                          LoadBalancerArns                                                          |||
+||+------------------------------------------------------------------------------------------------------------------------------------+||
+|||  arn:aws:elasticloadbalancing:us-east-1:975050296408:loadbalancer/net/precreated-nlb/28d47a39e0a5ab56                              |||
+||+------------------------------------------------------------------------------------------------------------------------------------+||
